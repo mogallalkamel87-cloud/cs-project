@@ -15,7 +15,7 @@ body{
     font-weight: 500;
     justify-content: space-between;
     align-items: center;
-    background-color: teal; 
+    background-color: rgba(10, 25, 47, 0.8); 
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(75%);
     border-bottom: 1px solid rgba(255,255,255,0.1); 
@@ -31,7 +31,7 @@ body{
    
 }
 .logo img:hover {
-    filter: invert(100%);
+   
     transform: scale(1.5);
     opacity: 0.8;
 }
@@ -100,8 +100,9 @@ body{
 }
 
 .hero-section {
+    linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #00f2fe 100%)
     /* background: linear-gradient(135deg,  #108bc4 0% , #0f172a 15%, #1e293b 50%, #108bc4 75% , #0f172a 100%); */
-    background: linear-gradient(135deg, #0f2a11 0%, #3b391e 50%, #fafe00 100%);
+    /* background: linear-gradient(135deg, #0f2a11 0%, #3b391e 50%, #fafe00 100%); */
     /* background: linear-gradient(to bottom right, #000000, #003333, #001a1a); */
     /* background: linear-gradient(135deg, #0f172a 0%, #134e4a 50%, #0f172a 100%);  */
     min-height: 80vh;
@@ -270,7 +271,7 @@ background: transparent;
 }
 
 .main-footer {
-    background-color: teal; 
+    background-color: rgba(10, 25, 47, 0.8); 
     color: #fff;
     padding: 60px 10% 20px;
     font-family: Arial, sans-serif;
@@ -356,7 +357,7 @@ background: transparent;
     transition: 0.5s ease;
 }
 .footer-bottom img:hover {
-    filter: invert(100%);
+
     transform: scale(1.5);
     cursor: pointer;
     opacity: 0.8;
